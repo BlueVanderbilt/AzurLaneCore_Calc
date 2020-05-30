@@ -10,13 +10,13 @@ def core_calc(month, event, event_days, core):
 '''
 Instructions on how to use:
 
-1st argument for core_calc is Month, any number ranging from 1 to 12
-2nd argument is event, 1 or 0, 1 means yes and any other number means no. 
+1st argument is Month, any number ranging from 1 to 12
+2nd argument is event, 1 means yes and any other number means no. 
 3rd argument is event_days, pretty self explainable
 4th argument is core, just means how many core data do you get per clear, F.E: Chapter 8 would be 20 core data per clear
 
-Lastly, this code is 100% accurate for non leap years, 28/7 = 4, 30/7 = 4.28 (Rounded to 4), 31/7 = 4.42 (Rounded to 4)
-Add +5 core data to the output if it's a leap year and you're calculating for February. 
+Lastly, this code is 100% accurate for non leap years as 28/7 = 4, 30/7 = 4.28 (Rounded to 4), 31/7 = 4.42 (Rounded to 4)
+If calculating core data for leap year and the month of February, just +5 core data to the output.
 
 '''
 
