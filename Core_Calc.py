@@ -1,7 +1,7 @@
 import datetime, math
 
-now = datetime.datetime.now()
-if (now.year%4==0 and now.year%100!=0 or now.year%400==0): leap = "true"
+x = datetime.datetime.now()
+if x.year % 4 == 0 and (x.year % 100 != 0 or x.year % 400 == 0): leap = "true"
 else: leap = "false"
     
 def core_calc(month, event, event_days, core):
@@ -20,11 +20,11 @@ Instructions on how to use:
 1st argument is Month, any number ranging from 1 to 12
 2nd argument is event, 1 means yes and any other number means no
 3rd argument is event_days, how many days the 3x core event lasts for
-4th argument is core, just means how many core data do you get per clear, e.g: Chapter 8 would be 20 core data per clear
+4th argument is core, means how many core data do you get per clear, e.g: Chapter 8 would be 20 core data per clear
 
 Lastly, this code is 100% accurate. 
 
 '''
 
-core_calc(6, 1, 9, 20)
+core_calc(6, 1, 9, 20)#This here is a template, change these numbers to fit your needs. 
          #1, #2, #3, #4
