@@ -26,5 +26,5 @@ Lastly, this code is 100% accurate.
 
 '''
 
-core_calc(6, 1, 9, 20)#This here is a template, change these numbers to fit your needs. 
-         #1, #2, #3, #4
+core_calc(6, 1, 9, 20) #This here is a template, change these numbers to fit your needs. 
+         #1, 2, 3, 4
