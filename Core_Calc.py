@@ -1,12 +1,11 @@
 import datetime
 
 x = datetime.datetime.now()
-if x.year % 4 == 0 and (x.year % 100 != 0 or x.year % 400 == 0): leap = "true"
-else: leap = "false"
+leap = 1 if x.year % 4 == 0 and (x.year % 100 != 0 or x.year % 400 == 0) else 0
 
 def core_calc(month, event, event_days, core):
-    if month == 2 and leap == "true": total = 29
-    elif month == 2 and leap == "false": total = 28
+    if month == 2 and leap == 1: total = 29
+    elif month == 2 and leap == 0: total = 28
     elif month in (4, 6, 9, 11): total = 30
     elif month in (1, 3, 5, 7, 8, 10, 12): total = 31
     if event == 1:
@@ -15,7 +14,7 @@ def core_calc(month, event, event_days, core):
     elif event == 0: 
         try: week_core = round(total/7); print(core * 3 * total + total * 5 + week_core * 15)
         except: print("Invalid Month")
-    else: print("Invalid event argument: 1 = Yes, 0 = No")
+    else: print("Invalid input for event: 1 = Yes, 0 = No")
         
 '''
 Instructions on how to use:
@@ -26,5 +25,5 @@ Instructions on how to use:
 Lastly, this code is 100% accurate. 
 '''
 
-core_calc(6, 1, 9, 20) #This here is a template, change these numbers to fit your needs. 
+core_calc(6, 1, 9, 20) #This here is a template, change these numbers to calculate what you want. 
          #1, 2, 3, 4
