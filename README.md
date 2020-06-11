@@ -1,4 +1,4 @@
-# About Azur lane core calc
+# About
 
 Azur lane core calc is a python script that calculates the total core data for any given month.
 
