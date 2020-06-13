@@ -15,9 +15,9 @@ def core_calc(month, event, days, core):
 Instructions on how to use)
 
 1st argument is Month: any number ranging from 1 to 12
-2nd argument is event: 1 means yes and any other number means no 
-3rd argument is days: refers to how many days the 3x core event lasts for
-4th argument is core: how many core data do you get per clear, e.g: Chapter 8 would be 20 core data per clear
+2nd argument is Event: 1 means yes and any other number means no 
+3rd argument is Days: refers to how many days the 3x core event lasts for
+4th argument is Core: how many core data do you get per clear, e.g: Chapter 8 would be 20 core data per clear
 Lastly, the output is 100% accurate. 
 '''
 
