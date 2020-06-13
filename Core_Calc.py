@@ -8,7 +8,7 @@ def core_calc(month, event, days, core):
     elif month == 2 and leap == 0: total = 28
     elif month in (4, 6, 9, 11): total = 30
     elif month in (1, 3, 5, 7, 8, 10, 12): total = 31
-    try: left = total - days; print((core * 3 * left) + (core * 3 * days * 3) + total * 5 + 60) if event == 1 else print(core * 3 * total + total * 5 + 60)
+    try: left = total - days; print((core * 3 * left) + (core * 9 * days) + total * 5 + 60) if event == 1 else print(core * 3 * total + total * 5 + 60)
     except: print("Invalid Month")
         
 '''
