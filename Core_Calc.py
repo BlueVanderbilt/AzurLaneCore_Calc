@@ -18,5 +18,5 @@ Instructions on how to use)
 4th argument is core: how much core data you get per clear, e.g: Chapter 8 would be 20 core data per clear
 '''
 
-core_calc(6, 1, 9, 20) #This here is a template, change these numbers to calculate what you want. 
-         #1, 2, 3, 4
+#core_calc(6, 1, 9, 20)
+          #1, 2, 3, 4 
